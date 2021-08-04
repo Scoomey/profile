@@ -1,0 +1,132 @@
+@media (max-width: 960px) {
+
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+    .bad-list{
+  width: 100px;
+  padding: 0;
+  }
+  .img-circle{
+  width: 100px;
+    padding: 0;
+  }
+  .card-brown{
+  width: 100px;
+    padding: 0;
+  }
+  .card-awful{
+  width: 100px;
+    padding: 0;
+  }
+  .card-cheese{
+  width: 100px;
+    padding: 0;
+  }
+  .card-white{
+  width: 100px;
+    padding: 0;
+  }
+  .container {
+    width: 100px;
+  }
+}
+
+
+body {
+  font-family: 'Mrs Saint Delafield', cursive;
+  background-color: rgb(99, 81, 165);
+  background-image:url("https://acegif.com/wp-content/gifs/starfall-gif-20.gif") ;
+}
+
+h1 {
+  color: red;
+}
+
+a {
+  color: brown;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 20px;
+  transition: .2s;
+}
+
+h2 {
+  color: rgb(255, 6, 48);
+}
+
+.card-white {
+  background-color: rgb(235, 171, 8);
+  width: 500px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+  border-radius: 50px 50px 10px 10px;
+}
+
+.card-cheese{
+  background-color: yellow;
+  width: 500px;
+  margin: 0 auto;
+  padding-left: 1px;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 10px;
+}
+
+.card-awful {
+  background-color: rgb(106, 64, 11);
+  width: 500px;
+  margin: 0 auto;
+  padding: 65px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+.card-brown {
+  background-color: rgb(147, 243, 12);
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 25;
+  padding-right: 25;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: fantasy;
+}
+
+.icons{
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 200px;
+  border: 10px;
+}
+
+a:hover {
+  color: yellow;
+}
+.bad-list{
+  list-style: none;
+  text-align: center;
+  background-color: rgb(235, 171, 8);
+  width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 10px 10px 50px 50px;
+}
